@@ -65,10 +65,11 @@ const filteredPosts = posts.filter((post) =>
         onChange={(e) => setSearchQuery(e.target.value)}
       />
 
-      <table className='table'>
+
+      <table className='table' style={{marginTop:40}}>
         <thead>
           <tr>
-             <th scope="col">#</th>
+             <th scope="col">No</th>
              <th scope="col">Topic</th>
              <th scope="col">Description</th>
              <th scope="col">Post Category</th>
